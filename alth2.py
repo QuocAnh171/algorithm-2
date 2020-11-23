@@ -17,7 +17,7 @@ while x != y:
 # gắn biến z = y để y không bao giờ thay đổi
     z = y
 #so sánh x với các khoảng x/2, x/4, x/8 ,...
-# thực hiện vòng lặp để biến z = z/2 để tìm được khoảng của x
+# thực hiện vòng lặp để biến z = z/2 để tìm được x hoặc x+1
     while x < z :
         z = z/2
     if x < z+1 :
